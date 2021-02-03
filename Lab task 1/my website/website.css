@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 523856
+}
+a,a:hover{
+	text-decoration: none;
+}
+h1{
+	color: white;
+}
+ul{
+	list-style: none;
+}
+
+.header{
+	position: relative;
+	width: 100%;
+	height:100vh;
+	background-size: cover;
+	background-image: url(aaaad.jpg);
+
+}
+
+
+.header .navbar{
+	width: 100%;
+	height: 90px;
+	display:flex;
+    align-items: center;
+	padding-top: 20px;
+}
+
+}
+.header .navbar .logo{
+	color: #fff; 
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+.header .navbar .menu ul{
+	margin-left: 192px;
+}
+
+.header .navbar .menu ul li{
+	display: inline-block;
+	margin-right: 35px;
+	align-items: center;
+}
+
+.header .navbar .menu ul li a{
+	color: #fff;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.header .Contact{
+	margin-left: 400px;
+}
+
+.header .Contact ul{
+	margin-left: 41px;
+}
+
+.header .Contact ul li{
+	display: inline-block;
+}
+
+.header .Contact ul li a{
+	color: #fff;
+	font-size: 15px;
+	transition: all o.4s;
+}
+.header .Contact ul li a:hover{
+	color: red;
+
+}
+.header .Contact ul li a.sep{
+	margin: 0 28px;
+	opacity: 0.3;
+}
+
+.header .banner{
+	position: absolute;
+	top: 35%;
+	left: 0;
+	right: 30%;
+	color: #fff;
+}
+
+.header .banner .app-text{
+	padding-left: 440px;
+}
+.header .banner .app-text h1{
+	font-size: 80px;
+	position: relative;
+	margin-top: 30px;
+	font-weight: 700px;
+	line-height: 1.2;
+	color: #523856;
+}
+
+.header .banner .app-text h1 span{
+	color: #c32865;
+}
+
+.header .banner .app-text .btn-group{
+	display: flex;
+	width: 100%;
+	position: relative;
+	margin-top: 20px;
+}
+
+
+
+
+
