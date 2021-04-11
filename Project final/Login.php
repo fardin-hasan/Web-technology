@@ -197,7 +197,7 @@ if (isset($_POST['uname'])) {
 		header("location:Logged_in_dashboard.php");
 	}
 	else{
-		$msg="username or password invalid";
+		
 		echo "<script>alert('uname or pass incorrect!')</script>";
 	}
 
